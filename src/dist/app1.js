@@ -1,3 +1,4 @@
+"use strict";
 var Role;
 (function (Role) {
     Role[Role["ADMIN"] = -1] = "ADMIN";
@@ -11,12 +12,11 @@ var Person = {
     hobbies: ["chess", "cricket"],
     role: Role.AUTHOR
 };
-Person.role[0] = 21;
 console.log(Person);
-var names; // Array declaration
+var names;
 names = ["lokesh", "ramesh"];
 console.log("The Hobbie of " + Person.name + " are:");
-for (var _i = 0, _a = Person.hobbies; _i < _a.length; _i++) { // looping through the arrays
+for (var _i = 0, _a = Person.hobbies; _i < _a.length; _i++) {
     var hobbie = _a[_i];
     console.log(hobbie.toUpperCase());
 }

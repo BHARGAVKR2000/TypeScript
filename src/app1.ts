@@ -8,7 +8,7 @@ const Person = {
 };
 
 
-Person.role[0] =21;
+
 
 console.log(Person);
 
